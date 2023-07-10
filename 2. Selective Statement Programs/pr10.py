@@ -1,4 +1,10 @@
-''' Restaurant Tip Calculator:Steps:Ratings will be: 1 is bad, 2 is not bad, 3 is average, 4 is good, and 5 is excellent.
+''' Restaurant Tip Calculator:
+Steps:Ratings will be: 
+1 is bad, 
+2 is not bad, 
+3 is average, 
+4 is good, and 
+5 is excellent.
 Read Food Rating: 1-5 
 Read Service Rating: 1-5 
 Read Ambience Rating: 1-5 
@@ -6,7 +12,8 @@ Read the bill's amount.
 If the food is good or excellent:Service and ambience are also good or excellent.
 Then the tip is 10% of your bill amount.Service and ambience are average/okay/bad.
 Then the tip is 5% of your amount.If the food is average, okay, or bad:Service and ambience are also good or excellent.
-Then the tip is 5% of your bill amount.Service and ambience are average/okay/bad.Then the tip is 1% of your bill amount. '''
+Then the tip is 5% of your bill amount.Service and ambience are average/okay/bad.
+Then the tip is 1% of your bill amount. '''
 
 amount=float(input("your bill amount is: "))
 print(amount)
